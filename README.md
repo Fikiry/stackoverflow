@@ -1,7 +1,7 @@
 # Simulink Model for MPC-LQR-LPV Controller
 
 ## Overview
-This Simulink model implements an MPC-LQR-LPV controller for a nonlinear half-car active suspension system with electro-hydraulic actuators. The control strategy aims to reduce system complexity while ensuring stability using Quadratic Stability conditions.
+An MPC-LQR-LPV controller for a nonlinear half-car active suspension system with electro-hydraulic actuators is implemented in this Simulink model. By employing quadratic stability requirements, the control technique seeks to maintain system stability while reducing system complexity by controlling the suspension actively by employing an MPC-LQR-LPV controller with Quadratic Stability Conditions and Attraction Sets
 
 ## Files
 - `LPV_Model.m`: Defines the LPV model dynamics.
@@ -23,4 +23,5 @@ This Simulink model implements an MPC-LQR-LPV controller for a nonlinear half-ca
 - Robust Control Toolbox
 
 ## References
-- Research papers and documentation related to MPC, LQR, LPV models, and Quadratic Stability conditions.
+- Research paper and documentation related to MPC, LQR, LPV models, and Quadratic Stability conditions.
+- Active Suspension Control Using an MPC-LQR-LPV Controller with Attraction Sets and Quadratic Stability Conditions Daniel Rodriguez-Guevara, Antonio Favela-Contreras, Francisco Beltran-Carbajal, David Sotelo and Carlos Sotelo
